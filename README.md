@@ -23,3 +23,7 @@ let (mut ws_stream, _) = ClientBuilder::from_uri(Uri::from_static("ws://127.0.0.
 ```
 
 Yes, both the server and client are using the same WebSocket protocol. This is defined by the `tokio_websockets` crate.
+
+## Experiment 2.3
+![alt text](image-2.png)
+Added IP and port information on each message before they are displayed by changing the bcast_tx.
